@@ -1,0 +1,49 @@
+/* You can add global styles to this file, and also import other style files */
+/* CSS for creating a trainagle after an element */
+body {
+    background: url('./assets/images/bg.png');
+    text-align: center;
+    /* border: 5px dashed #fffef7; */
+}
+.container {
+    background: #FFFEF7;
+    margin-top: 40px;
+    border-left: 15px dashed #94c3da;
+    border-right: 3px dotted #cee4ef;
+    opacity: 0.8;
+}
+.user-form {
+    position: absolute;
+    left: -30px;
+    right: -30px;
+    height: 200px;
+    padding: 30px;
+    background-position-x: 272%;
+    background-position-y: -1px;
+    background-repeat: no-repeat;
+    background-color: #FFF;
+    border-radius: 4px;
+    color: #333;
+    box-shadow: 0px 0px 60px 5px rgba(0, 0, 0, 0.4);
+}
+.user-form:after {
+    position: absolute;
+    content: "";
+    right: -10px;
+    bottom: 71px;
+    width: 0;
+    height: 0;
+    border-left: 0px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #7149c7;
+}
+.dot {
+    height: 50px;
+    width: 50px;
+    background: url('./assets/images/bg.png');
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 10px;
+    border: 5px solid #4394bb;
+    float: right;
+  }
